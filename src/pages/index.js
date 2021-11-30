@@ -7,7 +7,7 @@ export default function Home() {
         <div className="flex h-hero-md lg:h-hero-lg 2xl:h-hero-xl justify-center items-center">
           <div className="text-center">
             <h1
-              class="
+              className="
               text-4xl
               font-bold
               leading-none
@@ -18,7 +18,7 @@ export default function Home() {
             "
             >
               Calculate your
-              <br class="hidden lg:block" /> input-output model
+              <br className="hidden lg:block" /> input-output model
             </h1>
             <Link href="/io">
               <button
